@@ -1,0 +1,15 @@
+.list-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    
+}
+
+.wrapper{
+    margin: 1rem auto;
+}
+
+li{
+    font-size: larger;
+    text-decoration: none;
+}

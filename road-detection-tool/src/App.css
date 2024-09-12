@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Router {
+    max-width: 800px; /* adjust the max-width to your liking */
+    margin: 40px auto; /* add some margin for better visibility */
+    padding: 20px;
+    background-color: #f0f0f0; /* add a background color to distinguish the router area */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

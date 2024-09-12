@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Login from './Pages/Login';
 import SelectAOI from './Pages/SelectAOI';
 import ViewAnalytics from './Pages/ViewAnalytics';
+import './App.css'
 
 function App() {
   return (
