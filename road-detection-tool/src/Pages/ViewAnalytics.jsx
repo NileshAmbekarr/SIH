@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Analytics = () => {
+const ViewAnalytics = () => {
   return (
     <div>
-      <h2>Past Analytics</h2>
-      {/* Analytics visualizations will be shown here */}
+      <h1>View Analytics</h1>
+      {/* Display analytics dashboard here */}
     </div>
   );
 };
 
-export default Analytics;
+export default ViewAnalytics;
+
