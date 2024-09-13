@@ -1,8 +1,9 @@
 import React from 'react';
+import './Dropdown.css'
 
 const Dropdown = ({ label, options, onSelect }) => {
   return (
-    <div>
+    <div className='dropdown'>
       <label>{label}:</label>
       <select onChange={(e) => onSelect(e.target.value)}>
         <option value="">Select {label}</option>

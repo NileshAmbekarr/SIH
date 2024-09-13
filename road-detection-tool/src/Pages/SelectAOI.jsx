@@ -14,7 +14,7 @@ const SelectAOI = () => {
   };
 
   return (
-    <div>
+    <div className='select-aoi'>
       <h1>Select Area of Interest (AOI)</h1>
       <Dropdown label="State" options={['', '']} onSelect={setState} />
       <Dropdown label="District" options={['District 1', 'District 2']} onSelect={setDistrict} />

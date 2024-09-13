@@ -1,0 +1,10 @@
+.shapefile-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .shapefile-item {
+    margin: 10px 0;
+  }
+  

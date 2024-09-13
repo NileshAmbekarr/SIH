@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import 'leaflet-draw';
+import './AOISelectionMap.css'
 
 const AOISelectionMap = ({ onAOISelect }) => {
   const mapRef = useRef(null);
