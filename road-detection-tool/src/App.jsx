@@ -23,7 +23,6 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Login />} />
             <Route path="/select-aoi" element={<SelectAOI />} />
             <Route path="/analytics" element={<ViewAnalytics />} />
           </Routes>
