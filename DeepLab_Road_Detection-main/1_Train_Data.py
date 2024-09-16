@@ -15,8 +15,9 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import albumentations as album
 
+
 # Load metadata and preprocess data
-DATA_DIR = r'C:\Users\MohammadalizadehkorM\Downloads\DeepGlobe Road Extraction Dataset'
+DATA_DIR = r'C:\Users\niles\Downloads\RAF28JUN2024039216009800058SSANSTUC00GTDA\BH_RAF28JUN2024039216009800058SSANSTUC00GTDA'
 
 metadata_df = pd.read_csv(os.path.join(DATA_DIR, 'metadata.csv'))
 metadata_df = metadata_df[metadata_df['split']=='train']
