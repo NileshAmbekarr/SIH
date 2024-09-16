@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import torch
 import segmentation_models_pytorch as smp
-from osgeo import gdal
+from osgeo import gdal # type: ignore
 
 # Define model parameters
 ENCODER = 'resnet50'
