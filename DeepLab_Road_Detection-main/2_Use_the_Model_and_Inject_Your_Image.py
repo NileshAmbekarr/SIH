@@ -21,7 +21,7 @@ def preprocess_image(image):
 model = torch.load('best_model.pth', map_location=torch.device('cpu'))  # Load the model on CPU
 
 # Load and preprocess your single TIF file
-input_image_path = r'G:\ATD\ACTIVE TRANS\Vision Zero\GIS\OnSystem-OffSystem\Sat Imagery\Pictures\Small Tiffs\3097_33_4_20150120_10.tif'
+input_image_path = r'C:\Users\niles\Downloads\RAF28JUN2024039216009800058SSANSTUC00GTDA\BH_RAF28JUN2024039216009800058SSANSTUC00GTDA\BAND2.tif'
 input_image = cv2.imread(input_image_path)
 input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
 
@@ -51,5 +51,5 @@ predicted_class_index = np.argmax(output_mask, axis=0)  # Get the index of the c
 road_mask = (predicted_class_index == 1).astype(np.uint8) * 255
 
 # Save the output mask
-output_path = r'G:\ATD\ACTIVE TRANS\Vision Zero\GIS\OnSystem-OffSystem\Sat Imagery\Pictures\Small Tiffs\Output\predicted_road_mask.png'
+output_path = r'C:\Users\niles\Downloads\RAF28JUN2024039216009800058SSANSTUC00GTDA\BH_RAF28JUN2024039216009800058SSANSTUC00GTDA'
 cv2.imwrite(output_path, road_mask)  # Save the road mask as an image
