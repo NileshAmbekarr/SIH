@@ -17,7 +17,7 @@ import albumentations as album
 
 
 # Load metadata and preprocess data
-DATA_DIR = r'C:\Users\niles\Downloads\RAF28JUN2024039216009800058SSANSTUC00GTDA\BH_RAF28JUN2024039216009800058SSANSTUC00GTDA'
+DATA_DIR = r'C:\Users\niles\Downloads\archive'
 
 metadata_df = pd.read_csv(os.path.join(DATA_DIR, 'metadata.csv'))
 metadata_df = metadata_df[metadata_df['split']=='train']
