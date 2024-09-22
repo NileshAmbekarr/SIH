@@ -58,8 +58,10 @@ def visualize(**images):
         # get title from the parameter names
         plt.title(name.replace('_',' ').title(), fontsize=20)
         plt.imshow(image)
-    plt.show()
-
+    plt.show(block=False)
+    plt.pause(1)  # Add a short pause to let the figure render
+    plt.close()
+   
 def one_hot_encode(label, label_values):
     """
     Convert a segmentation image label array to one-hot format
