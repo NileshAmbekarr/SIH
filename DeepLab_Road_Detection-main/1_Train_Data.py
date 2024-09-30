@@ -200,8 +200,8 @@ valid_dataset = RoadsDataset(
 )
 
 # Get train and val data loaders
-train_loader = DataLoader(train_dataset, batch_size=4, shuffle=True, num_workers=4)
-valid_loader = DataLoader(valid_dataset, batch_size=4, shuffle=False, num_workers=4)
+train_loader = DataLoader(train_dataset, batch_size=2, shuffle=True, num_workers=2)
+valid_loader = DataLoader(valid_dataset, batch_size=2, shuffle=False, num_workers=2)
 
 if __name__ == '__main__':
     # Set flag to train the model or not
